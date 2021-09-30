@@ -8,7 +8,8 @@ Simply run a bash script in the data directory and the GDB-9 dataset will be dow
 
 ```bash
 cd data
-bash download_dataset.sh```
+bash download_dataset.sh
+```
 
 The QM9 dataset is located in the data directory as well.
 
@@ -21,14 +22,16 @@ Simply run the python script within the data direcotry.
 You need to comment or comment some lines of code in the main function.
 
 ```python
-python sparse_molecular_dataset.py```
+python sparse_molecular_dataset.py
+```
 
 ## MolGAN
 
 Simply run the following command to train the MolGAN.
 
 ```python
-python main.py```
+python main.py
+```
 
 You are able to define the training parameters within the Training block of the main function in `main.py`
 
