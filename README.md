@@ -43,5 +43,5 @@ You need to comment the training section and uncomment the test section in the m
 
 ## Credits
 This repository refers to the following repositories:
- [nicola-decao/MolGAN](https://github.com/nicola-decao/MolGAN)
- [ ZhenyueQin/Implementation-MolGAN-PyTorch](https://github.com/ZhenyueQin/Implementation-MolGAN-PyTorch)
+ - [nicola-decao/MolGAN](https://github.com/nicola-decao/MolGAN)
+ - [ ZhenyueQin/Implementation-MolGAN-PyTorch](https://github.com/ZhenyueQin/Implementation-MolGAN-PyTorch)
