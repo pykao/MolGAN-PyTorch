@@ -41,6 +41,10 @@ Simply run the same command to test the MolGAN.
 
 You need to comment the training section and uncomment the test section in the main function of `main.py`
 
+```python
+python main.py
+```
+
 ## Credits
 This repository refers to the following repositories:
  - [nicola-decao/MolGAN](https://github.com/nicola-decao/MolGAN)
