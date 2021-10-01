@@ -11,6 +11,12 @@ The environment can be install:
 conda env create -f environment.yml
 ```
 
+You are able to activate the environment:
+
+```bash
+conda activate molgan
+```
+
 ## Download GDB-9 Dataset
 
 Simply run a bash script in the data directory and the GDB-9 dataset will be downloaded and unzipped automatically together with the required files to compute the NP and SA scores.
