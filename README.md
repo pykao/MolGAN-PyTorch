@@ -2,6 +2,15 @@
 
 This is the PyTorch Implementation of [MolGAN: An implicit generative model for small molecular graphs](https://arxiv.org/abs/1805.11973)
 
+
+## Environment
+
+The environment can be install:
+
+```bash
+conda env create -f environment.yml
+```
+
 ## Download GDB-9 Dataset
 
 Simply run a bash script in the data directory and the GDB-9 dataset will be downloaded and unzipped automatically together with the required files to compute the NP and SA scores.
