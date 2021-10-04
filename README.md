@@ -34,7 +34,7 @@ Feel free to use it.
 
 Simply run the python script within the data direcotry. 
 
-You need to comment or comment some lines of code in the main function.
+You need to comment or uncomment some lines of code in the main function.
 
 ```python
 python sparse_molecular_dataset.py
@@ -48,13 +48,13 @@ Simply run the following command to train the MolGAN.
 python main.py
 ```
 
-You are able to define the training parameters within the Training block of the main function in `main.py`
+You are able to define the training parameters within the training block of the main function in `main.py`
 
 ## Testing Phase
 
 Simply run the same command to test the MolGAN. 
 
-You need to comment the training section and uncomment the test section in the main function of `main.py`
+You need to comment the training section and uncomment the testing section in the main function of `main.py`
 
 ```python
 python main.py
