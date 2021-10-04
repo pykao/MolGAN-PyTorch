@@ -291,8 +291,8 @@ class SparseMolecularDataset():
 if __name__ == '__main__':
     # GDB9 dataset
     data = SparseMolecularDataset()
-    #data.generate('gdb9.sdf', filters=lambda x: x.GetNumAtoms() <= 9)
-    #data.save('gdb9_9nodes.sparsedataset')
+    data.generate('gdb9.sdf', filters=lambda x: x.GetNumAtoms() <= 9)
+    data.save('gdb9_9nodes.sparsedataset')
 
     # QM9 dataset
     #data = SparseMolecularDataset()
