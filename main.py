@@ -61,13 +61,14 @@ if __name__ == '__main__':
 
     os.environ["CUDA_VISIBLE_DEVICES"]="6"
 
-    #config.mol_data_dir = r'data/gdb9_9nodes.sparsedataset'
-    config.mol_data_dir = r'data/qm9_5k.sparsedataset'
+    config.mol_data_dir = r'data/gdb9_9nodes.sparsedataset'
+    #config.mol_data_dir = r'data/qm9_5k.sparsedataset'
 
     # Training
     config.saving_dir = r'results/GAN'
     config.z_dim = 32
-    config.num_epochs = 600
+    config.num_epochs = 30
+    # 1.0 for pure WGAN and 0.0 for pure RL
     config.lambda_wgan = 1.0
 
     # Test
