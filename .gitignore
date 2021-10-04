@@ -1,6 +1,13 @@
 # results
 results/
 
+# data
+data/NP_score.pkl.gz
+data/SA_score.pkl.gz
+data/gdb9.sdf
+data/gdb9.sdf.csv
+data/gdb9_9nodes.sparsedataset
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
